@@ -1,0 +1,27 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+<html>
+
+<div class="text-center">
+    <h1 id="hello_world" class="display-4 green-text" onmouseover="newColor()" onmouseout="oldColor()">Hello world!!</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
+
+<body>
+    <div>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/dYgrDcXHLwA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+
+<p><button onclick="movingParts()">See how fast I can move!</button></p>
+
+    <div id="myContainer">
+        <div id="myAnimation"></div>
+    </div>
+
+
+
+</body>
+</html>
